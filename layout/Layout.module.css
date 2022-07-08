@@ -1,0 +1,8 @@
+.Layout {
+  background-color: lightblue;
+  width: 100vh;
+  min-height: 80vh;
+  margin: auto auto;
+  padding: 2rem;
+  border-radius: 2rem;
+}
