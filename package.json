@@ -2,8 +2,9 @@
   "name": "memo",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "gen": "node generateQuestionsList.js",
+    "gen": "node generateQuestionsList.cjs",
     "dev": "pnpm run gen && next dev",
     "build": "pnpm run gen && next build",
     "start": "next start",
