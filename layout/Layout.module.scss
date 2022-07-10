@@ -8,9 +8,9 @@
 .Nav {
   text-align: center;
   margin-bottom: 1rem;
-}
-
-.Nav > *:first-child {
-  border-right: 0.1rem solid rgba(96, 108, 118, 0.25);
-  padding-right: 1rem;
+  
+  & > *:first-child {
+    border-right: 0.1rem solid rgba(96, 108, 118, 0.25);
+    padding-right: 1rem;
+  }
 }

@@ -3,7 +3,7 @@ import { ArrowBigLeft, ArrowBigRight } from "lucide-react";
 import Link from "next/link";
 import { toString } from "ramda";
 import { FC, ReactNode } from "react";
-import styles from './Layout.module.css';
+import styles from './Layout.module.scss';
 
 interface LayoutProps {
   children: ReactNode,
