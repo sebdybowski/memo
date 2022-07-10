@@ -5,4 +5,32 @@ import { Layout } from '../../layout/Layout.tsx';
   questionNumber={5}
 >
 #### Odpowiedź
+##### Diagramy obiektów UML
+Diagramy obiektów UML służą przedstawieniu konkretnej jednostkowej realizacji struktury zdefiniowanej przez diagramy klas
+Mogą np. dotyczyć realizacji dla pewnego konkretnego systemu (gdy system jest statyczny) lub dla stanu systemu w pewnej określonej chwili czasu (gdy system jest dynamiczny).
+
+Na diagramach obiektów przedstawione są:
+
+symbole obiektów (opcjonalnie nazwa obiektu i opcjonalnie typ obiektu (klasa do której należy) – jedna z opcji musi być zrealizowana)
+powiązania między obiektami, będące egzemplarzami powiązań między klasami
+
+#### Diagramy klas
+są odmianą klasyczną diagramów encja-związek
+(entity-relationship) rozbudowanymi o nowe elementy
+dużo oznaczeń o charakterze pomocniczym
+(np.: notatki i ograniczenia)
+rodzajem diagramów klas są diagramy pakietów
+(package diagrams)
+
+**Klasa** jest miejscem przechowywania cech obiektów, które są
+niezmienne (inwariantów). Klasa nie jest zbiorem obiektów i nie jest
+definicją zbioru obiektów. Stosunek klasa/podklasa oznacza, że
+obiekty podklasy posiadają wszystkie inwarianty nadklasy, plus swoje
+inwarianty. Np. klasa Student ma wszystkie inwarianty klasy Osoba,
+plus niektóre własne.
+
+##### Linki
+- [PWR](https://www.ii.pwr.edu.pl/~kazienko/projektowanie/Diagramy%20klas.pdf)
+- [AGH](http://zasoby.open.agh.edu.pl/~10sdczerner/page/diagramy_obiektow_uml.html)
+
 </Layout>
