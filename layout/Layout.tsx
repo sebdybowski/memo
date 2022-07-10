@@ -38,6 +38,7 @@ export const Layout: FC<LayoutProps> = ({ title, children, questionNumber = 1 })
           <em>({convertNumberToPath(questionNumber)})</em>
           {` ${title}`}
         </h3>
+        <hr/>
         {children}
         <hr />
         <nav className={styles.Nav}>

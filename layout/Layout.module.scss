@@ -1,16 +1,20 @@
+@use '../styles/variables.scss' as *;
+
 .Layout {
-  background-color: antiquewhite;
+  background-color: floralwhite;
+  border: 1px solid $line-color;
   border-radius: 2rem;
   margin: auto auto;
   padding: 2rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
 }
 
 .Nav {
   text-align: center;
   margin-bottom: 1rem;
-  
+
   & > *:first-child {
-    border-right: 0.1rem solid rgba(96, 108, 118, 0.25);
+    border-right: 0.1rem solid $line-color;
     padding-right: 1rem;
   }
 }
