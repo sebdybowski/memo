@@ -8,8 +8,8 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>UEK Krakow | Thesis Defense Memo</title>
-        <meta name="description" content="IZ Applied Informatics" />
+        <title>Thesis Defense Memo</title>
+        <meta name="description" content="Thesis Defense Memo" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -24,7 +24,7 @@ const Home: NextPage = () => {
                 <Link href={`questions/${page}`}>
                   {`Question ${page} `}
                 </Link>
-                { (page === '08' || page === '15') && <strong>(selected)</strong>}
+                { (page === '08' || page === '15') && <strong>(*)</strong>}
               </li>
             )
           })}
