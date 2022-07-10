@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <h1>Contents</h1>
+        <h1>Questions</h1>
         <ul>
           {data.files.map((question: string) => {
             const page = question.split('.')[0];

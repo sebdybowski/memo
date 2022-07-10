@@ -1,4 +1,5 @@
 /** @type {import('next').NextConfig} */
+
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
@@ -15,7 +16,6 @@ const withMDX = require('@next/mdx')({
 })
 
 module.exports = withMDX({
-  // Append the default value with md extensions
   ...nextConfig,
   pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
 })

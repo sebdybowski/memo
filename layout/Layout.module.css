@@ -1,8 +1,16 @@
 .Layout {
-  background-color: lightblue;
-  width: 100vh;
-  min-height: 80vh;
+  background-color: antiquewhite;
+  border-radius: 2rem;
   margin: auto auto;
   padding: 2rem;
-  border-radius: 2rem;
+}
+
+.Nav {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.Nav > *:first-child {
+  border-right: 0.1rem solid rgba(96, 108, 118, 0.25);
+  padding-right: 1rem;
 }
