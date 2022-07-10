@@ -25,3 +25,7 @@ a {
 hr {
   border-color: $line-color;
 }
+
+img {
+  border: 1px solid $line-color !important;
+}
