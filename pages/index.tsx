@@ -24,7 +24,6 @@ const Home: NextPage = () => {
                 <Link href={`questions/${page}`}>
                   {`Question ${page} `}
                 </Link>
-                { (page === '08' || page === '15') && <strong>(*)</strong>}
               </li>
             )
           })}
