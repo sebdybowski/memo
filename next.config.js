@@ -11,6 +11,7 @@ const __dirname = path.dirname(__filename);
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+//  output: 'export'
 }
 
 const withMDX = nextMDX({

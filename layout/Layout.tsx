@@ -31,7 +31,7 @@ export const Layout: FC<LayoutProps> = ({ title, children, questionNumber = 1 })
       <div className="row">
         <div className="column">
         <Link href='/'>
-          <a><ArrowBigLeft size={12} /> List</a>
+          <ArrowBigLeft size={12} /> List
         </Link>
         <br />
         <h3>
@@ -43,10 +43,10 @@ export const Layout: FC<LayoutProps> = ({ title, children, questionNumber = 1 })
         <hr />
         <nav className={styles.Nav}>
           {questionNumber !== 1 && <Link href={prevPath}>
-            <a><ArrowBigLeft size={12} /> Prev <em>({prevPath})</em></a>
+            <ArrowBigLeft size={12} /> Prev <em>({prevPath})</em>
           </Link>}
           {questionNumber !== 30 && <Link href={nextPath}>
-            <a>Next <em>({nextPath})</em> <ArrowBigRight size={12} /></a>
+            Next <em>({nextPath})</em> <ArrowBigRight size={12} />
           </Link>}
         </nav>
         </div>
