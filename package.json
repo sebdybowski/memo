@@ -6,14 +6,14 @@
   "scripts": {
     "gen": "node generateQuestionsList.cjs",
     "dev": "pnpm run gen && next dev",
-    "build": "pnpm run gen && next build",
+    "build": "pnpm run gen && next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "@mdx-js/loader": "^2.1.2",
-    "@next/mdx": "^12.2.1",
-    "@types/ramda": "^0.28.14",
+    "@mdx-js/loader": "^2.3.0",
+    "@next/mdx": "^12.3.4",
+    "@types/ramda": "^0.28.25",
     "clsx": "^1.2.1",
     "lucide-react": "^0.73.0",
     "milligram": "^1.4.1",
@@ -24,16 +24,16 @@
     "remark-gfm": "^3.0.1"
   },
   "devDependencies": {
-    "@mdx-js/react": "*",
+    "@mdx-js/react": "^3.0.0",
     "@types/node": "18.0.3",
     "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
     "eslint": "8.19.0",
     "eslint-config-next": "12.2.1",
-    "prop-types": "^15.7.2",
-    "sass": "^1.53.0",
+    "prop-types": "^15.8.1",
+    "sass": "^1.69.5",
     "typescript": "4.7.4",
-    "webpack": "^5.73.0"
+    "webpack": "^5.89.0"
   },
   "peerDependencies": {
     "@mdx-js/react": "*",
